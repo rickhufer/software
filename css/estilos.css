@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: whitesmoke;
+}
+.software {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    /* background-color: lemonchiffon; */
+}
+.software h1 {
+    text-align: center;
+}
+.grado {
+    margin-bottom: 60px;
+}
+.grado a {
+    display: block;
+    /* background-color: lightskyblue; */
+    margin: 10px 0;
+    padding: 20px;
+    color: #2f2f2f;
+}
+.ambos {
+    background: rgb(189,183,107);
+    background: linear-gradient(90deg, rgba(189,183,107,1) 0%, rgba(0,206,209,1) 100%);
+}
+.sem1 {
+    background-color: darkkhaki;
+}
+.sem2 {
+    background-color: darkturquoise;
+}
