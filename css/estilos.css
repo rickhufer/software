@@ -15,11 +15,16 @@ body {
 .software {
     width: 100%;
     max-width: 700px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 .software h1 {
     text-align: center;
     margin-bottom: 40px;
+}
+.software>h2 {
+    text-align: center;
+    color: red;
 }
 .grado {
     margin-bottom: 60px;
