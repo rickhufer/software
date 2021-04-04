@@ -16,7 +16,6 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 0 auto;
-    /* background-color: lemonchiffon; */
 }
 .software h1 {
     text-align: center;
@@ -27,10 +26,10 @@ body {
 }
 .grado a {
     display: block;
-    /* background-color: lightskyblue; */
     margin: 10px 0;
     padding: 20px;
     color: #2f2f2f;
+    border-radius: 10px;
 }
 .ambos {
     background: rgb(189,183,107);
@@ -58,6 +57,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .color1 {
     background-color: darkkhaki;
