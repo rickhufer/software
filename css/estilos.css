@@ -20,6 +20,7 @@ body {
 }
 .software h1 {
     text-align: center;
+    margin-bottom: 40px;
 }
 .grado {
     margin-bottom: 60px;
@@ -40,4 +41,31 @@ body {
 }
 .sem2 {
     background-color: darkturquoise;
+}
+.colores {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+.colores p {
+    flex-grow: 1;
+}
+.color1, .color2, .color3 {
+    /* width: 100px; */
+    height: 50px;
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.color1 {
+    background-color: darkkhaki;
+}
+.color2 {
+    background-color: darkturquoise;
+}
+.color3 {
+    background: rgb(189,183,107);
+    background: linear-gradient(90deg, rgba(189,183,107,1) 0%, rgba(0,206,209,1) 100%);
 }
